@@ -3,16 +3,28 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InternetComponent } from './internet/internet.component';
+import { LunchComponent, NgbdModalContent } from './lunch/lunch.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LunchService } from './lunch/lunch.service';
+import { NgbModule, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InternetComponent,
+    LunchComponent,
+    NgbdModalContent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    NgbModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [LunchService, NgbActiveModal],
+  bootstrap: [AppComponent],
+  entryComponents: [NgbdModalContent]
 })
-export class AppModule { }
+export class AppModule {
+}

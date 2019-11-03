@@ -1,0 +1,20 @@
+
+<nav class="navbar navbar-default justify-content-center">
+    <div class="row">
+        <h1>Lunch Tyme</h1>
+    </div>
+    <div class="nav-element">
+        <img src="assets/imgs/icon_map@2x.png" />
+    </div>
+</nav>
+<div>
+    <div *ngFor="let restraunt of restraunts?.restaurants" (click)="open(restraunt)">
+        <img [src]="restraunt.backgroundImageURL" />
+        <div class="row">
+            <p class="name"> {{restraunt.name}}</p>
+        </div>
+        <div class="row">
+            <p class="category">{{restraunt.category}}</p>
+        </div>
+    </div>
+</div>

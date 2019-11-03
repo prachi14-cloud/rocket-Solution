@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #43E895;
+    height: 10%;
+}
+.bottle-logo {
+    max-width: 30%;
+    height: 20%;
+}
+img{
+    width: 100%;
+}
+.arrow {
+    width: 60%
+}
+@media only screen and (min-width: 768px) {
+    .arrow {
+    width: 80%;
+    }
+  }
+.refresh {
+    width: 100%
+}
+@media only screen and (min-width: 768px){
+    .refresh {
+        width: 125%;
+    }
+}
+h2{
+    margin:30px;
+    font-size: 20px;
+}
+@media only screen and (min-width: 768px){
+    h2 {
+    font-size: 30px;
+    }
+}
+
+.text {
+    font-size: 17px;
+    font-family: Avenir Next Regular;
+}
+@media only screen and (min-width: 768px){
+    .text {
+    font-size: 20px;
+    }
+}
+hr.new1 {
+    border: 3px solid red;
+}
+hr.new2 {
+    background-color: grey;
+    margin-top:60px;
+}
+.first-name{
+    background-color: #dee2e6;
+    width:100%;
+    height: calc(3rem + 2px);
+    border-radius: 0;
+    border:none;
+    padding-left: 20px;
+}
+ h6{
+     margin-top: 35px;
+ }
+ p{
+     margin-bottom: 0em;
+ }

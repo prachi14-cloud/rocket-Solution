@@ -1,0 +1,27 @@
+<div class="modal-header navbar-modal navbar-default justify-content-center">
+        <div class="row">
+            <img class="arrow" src="assets/imgs/ic_webBack@2x.png" (click)="activeModal.close('Back')" />
+            <h1 class="heading">Lunch Tyme</h1>
+        </div>
+</div>
+
+<div class="modal-body">
+    <div>
+        <div #map class="maps">
+        </div>
+        <div class="cat">
+            <h5> {{restraunt?.name}}</h5>
+            <h6 class="maps-name">{{restraunt?.category}}</h6>
+
+        </div>
+        <div class="restraunt-name">
+            <span> {{restraunt?.location?.address}}</span>
+        </div>
+        <div class="phone">
+            <span> {{restraunt?.contact?.phone}} </span>
+        </div>
+        <div>
+            <span> {{restraunt?.contact?.twitter}} </span>
+        </div>
+    </div>
+</div>

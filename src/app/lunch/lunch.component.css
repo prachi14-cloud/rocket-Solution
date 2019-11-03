@@ -1,0 +1,196 @@
+.navbar {
+    background-color: #43E895;
+    height: 10%;
+}
+@media only screen and (min-width: 768px) {
+    .navbar {
+      width: 100%;
+    }
+  }
+
+h1 {
+    font-size: 20px;
+    font-family: Avenir Next Demi Bold;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+    font-size:30px;
+    }
+  }
+img {
+    width: 100%;
+}
+p {
+    color: #FFFFFF;
+    margin-left: 4%;
+}
+.name{
+    font-family: Avenir Next Demi Bold;
+    font-size: 16px;
+    margin-top: -80px;
+}
+@media only screen and (min-width: 768px){
+  .name{
+    font-size: 20px;
+  }
+}
+.category{
+    font-family: Avenir Next Regular;
+    font-size: 16px;
+    margin-top: -46px;
+}
+@media only screen and (min-width: 768px){
+  .category{
+    font-size: 20px;
+  }
+}
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.maps{
+  height:400px;
+}
+.maps-name {
+  margin-top:10px;
+}
+.cat{
+  background-color: #43E895;
+  font-family: Avenir Next Bold;
+  font-size: 16px;
+  color: white;
+  padding:8px;
+}
+@media only screen and (min-width: 768px){
+  .cat {
+  background-color: #43E895;
+  font-family: Avenir Next Bold;
+  font-size: 24px;
+  color: white;
+  height: 80px;
+  padding: 10px;
+  }
+}
+.nav-element{
+  position: absolute;
+  top: 28%;
+  right: 6%;
+  width: 10%;
+}@media only screen and (min-width: 768px) {
+  .nav-element {
+  position: absolute;
+  top: 20%;
+  right: 4%;
+  width:auto;
+  }
+}
+
+.arrow {
+  width: 4%;
+  position: absolute;
+  top: 28px;
+  left: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .arrow {
+    width: 3%;
+    position: absolute;
+    top: 31px;
+    left: 25px;
+  }
+}
+
+::ng-deep.modal .modal-dialog
+	 {
+		position: fixed;
+		margin: auto;
+    height: 100%;
+    width: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	::ng-deep.modal .modal-content
+	{
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	::ng-deep.modal .modal-body
+	{
+		padding: 15px 15px 80px;
+	}
+
+/*Left*/
+.modal.fade .modal-dialog {
+  left: -320px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+          transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+	.modal.fade.in .modal-dialog{
+		left: 0;
+	}
+
+/* ----- MODAL STYLE ----- */
+	.modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+	.modal-header {
+		border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+    padding: 0px;
+  }
+  .navbar-modal {
+    background-color: #43E895;
+    height: 100px;
+    width: 100%;
+    text-align: center !important;
+  }
+  @media only screen and (min-width: 768px) {
+    .navbar-modal {
+      width: 100%;
+      height: 100px;
+      width: 100%;
+    }
+  }
+  .heading{
+    margin-top: 30px;
+  }
+  @media only screen and (min-width: 768px) {
+    .heading{
+      margin-top: 25px;
+    }
+  }
+  .restraunt-name {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  @media only screen and (min-width: 768px) {
+  .restraunt-name {
+    margin-top: 16px;
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+}
+.phone{
+  font-size: 17px;
+  margin: 22px 0px;
+}
+@media only screen and (min-width: 768px) {
+  .phone{
+    font-size: 20px;
+    margin: 26px 0px;
+  }
+}
